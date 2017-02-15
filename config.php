@@ -1,6 +1,6 @@
 <?php 
 	try {
-		$db_conn = new PDO("mysql:host=localhost;dbname=latihan-pdo;",'root', 'cobalutebak');
+		$db_conn = new PDO("mysql:host=localhost;dbname=latihan-pdo;",'root', '');
 	} catch (PDOException $e) {
 		die("Koneksi error : ".$e->getMessage());
 	}
