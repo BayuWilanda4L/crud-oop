@@ -7,4 +7,3 @@
 
 include "crud_class.php";
 $crud = new CRUD($db_conn);
-?>

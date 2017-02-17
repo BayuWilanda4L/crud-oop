@@ -43,5 +43,3 @@
 			header("location:index.php");
 		}
 	}
-
-?>
